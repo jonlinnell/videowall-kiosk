@@ -1,0 +1,45 @@
+{
+  "name": "react-parcel-styledcomponents-boilerplate",
+  "version": "0.1.0",
+  "description": "A quick-start boilerplate for React+SC apps, using Parcel.",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "parcel serve src/index.html",
+    "build": "parcel build src/index.html",
+    "lint": "eslint src --ext js --ext jsx"
+  },
+  "keywords": [],
+  "author": "Jon Linnell",
+  "license": "MIT",
+  "husky": {
+    "hooks": {  
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,jsx}": ["prettier --write", "eslint --fix", "git add"]
+  },
+  "dependencies": {
+    "@reach/router": "^1.2.1",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "styled-components": "^4.1.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0-0",
+    "@babel/plugin-proposal-class-properties": "^7.3.3",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/plugin-transform-runtime": "^7.2.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.14.1",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4",
+    "husky": "^1.3.1",
+    "lint-staged": "^8.1.4",
+    "parcel-bundler": "^1.11.0",
+    "prettier": "^1.16.4"
+  }
+}
