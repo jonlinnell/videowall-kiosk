@@ -5,8 +5,8 @@ import Screen from '../components/Screen';
 
 const Home = () => (
   <Screen>
-    <SectionTitle noYMargin>Goodbye!</SectionTitle>
-    <p>This content is on the way out.</p>
+    <SectionTitle noYMargin>Outward-facing</SectionTitle>
+    <p>People will see this content when entering the building.</p>
   </Screen>
 );
 

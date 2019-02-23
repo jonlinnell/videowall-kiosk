@@ -1,16 +1,8 @@
-# Minimal Frontend Boilerplate
+# videowall-kiosk
+Display software for the portrait kiosk screen in reception.
 
-Including:
-
-- React 16.8 (the one with hooks)
-- Styled Components
-- Parcel
-- Babel 7
-- ESLint and Prettier
-
-## Description
-A minimal quick-start boilerplate for frontend projects using contemporary libraries and tooling.
-This is mostly for my own convenience.
+## Usage
+Content for the inward-facing screen is accessed through the `/inward` route. Content for the outward-facing screen is accessed through the `/outward` route.
 
 ## Run
 To run a local build:
@@ -34,6 +26,3 @@ To manually lint:
 ```console
 yarn lint
 ```
-
-## Contributing
-Please do. PRs for better code are welcome!

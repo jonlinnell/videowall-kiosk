@@ -5,8 +5,8 @@ import Screen from '../components/Screen';
 
 const Home = () => (
   <Screen>
-    <SectionTitle noYMargin>Hello!</SectionTitle>
-    <p>This content will face people.</p>
+    <SectionTitle noYMargin>Inward-facing</SectionTitle>
+    <p>This content will face people leaving the building.</p>
   </Screen>
 );
 
