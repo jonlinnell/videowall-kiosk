@@ -7,14 +7,16 @@ import theme from './style/theme.json';
 
 import GlobalStyles from './style/GlobalStyles';
 
-import Home from './pages/Home';
+import Inward from './pages/Inward';
+import Outward from './pages/Outward';
 
 const App = () => (
   <ThemeProvider theme={theme}>
     <main>
       <GlobalStyles />
       <Router>
-        <Home path="/" />
+        <Inward path="/inward" />
+        <Outward path="/outward" />
       </Router>
     </main>
   </ThemeProvider>

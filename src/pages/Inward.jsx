@@ -1,13 +1,13 @@
 import React from 'react';
 
 import SectionTitle from '../components/SectionTitle';
-import FullPageSection from '../components/FullPageSection';
+import Screen from '../components/Screen';
 
 const Home = () => (
-  <FullPageSection>
+  <Screen>
     <SectionTitle noYMargin>Hello!</SectionTitle>
-    <p>Edit src/app.jsx to begin.</p>
-  </FullPageSection>
+    <p>This content will face people.</p>
+  </Screen>
 );
 
 export default Home;
